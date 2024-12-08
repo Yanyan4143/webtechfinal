@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A&B co. A/C Repair Services</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="icon" type="icon" href="cooled.png">
+
+</head>
+<body>
+    
+  <section class="discount-navbar">
+    <div class="location">    
+        <h1>69-Block Street, Labangon, Cebu City</h1>
+    </div>
+    <div class="discount">
+        <h1>5% Discount for Seniors and ACT Students</h1>
+    </div>
+</section>
+
+    <div class="nav1">
+        <div class="icon">  
+        <img src="cooled.png" width="50px" height="50px"/>
+        <h4 class="ab">A&B co. A/C Repair Services</h4>
+        </div>
+        <div class="context1">
+        <li><a href="index.html" >Home</a></li>
+
+        <li><a href="shop.html" >Shop</a></li>
+
+        <li><a href="service.html" >Services</a> </li>
+           
+        <li><a href="about.html" >About us</a></li>
+
+        </div>
+
+        <a href="contact.html">
+            <div class="contact">                   
+            <h1>Contact us</h1>
+            <img src="icon-telephone.png"/>
+            </div>
+            </a>
+        </div>
+    </div>
+
+        <div class="video-container">
+        <video autoplay muted loop>
+        <source src="aircon.mp4" type="video/mp4">
+        </video>
+        <div class="company"> 
+            <img src="atillo&barba.png" />
+            <h3 style="color: white;">100% Trusted & Secured</h3>  
+            <p></p>
+            </div>
+            <div class="login-user">
+             <p>Schedule a Service</p>     
+             <form name="booking" action="#" method="get" id="form">
+                <label for="name"></label>
+                <input type="text" id="name" placeholder="Name" name="name"><br>
+                <label for="email"></label>
+                <input type="text" id="email" placeholder="Email"name="email"><br>
+                <label for="phone"></label>
+                <input type="text" id="phone" placeholder="Phone" name="phone"><br>
+                
+                <textarea cols="36" rows="7" id="textarea" placeholder="How can we help you?"></textarea>
+                <br>
+                <input type="button" id="book" value="Reserve" onclick="myFunction()">
+              </form>
+            </div>
+        </div>
+
+        <section class="main">
+         <div class="main-context">
+    
+         <h1 id="hev3">A&B A/C Services co.</h1>
+         <p id="p2">Quality Services From Start to Finish</p>
+         <p id="p1">We offer a comprehensive range of professional A&B co. Repair Services to cater to all your heating and air conditioning needs.<br>
+            Our experienced team is equipped to handle installations, repairs, and maintenance for a wide variety of systems.</p>
+         </div>          
+        </section>
+        <section class="about-section">
+        <div class="grid off1">
+        <img src="aircon.png" width="250px" height="250px"/>
+        <h3>Air Conditioning</h3>
+        <p>A&B co. & Air ensures year-round <br>
+          comfort with expert installations, <br>  
+          repairs,  and maintenance for business.</p>       
+         
+
+          <div class="ahref 1">
+            <a href="shop.html" target="_blank" style="color: white;">Learn More</a>
+           </div>
+        </div>
+        <div class="grid off2">
+            <img src="heatpump.png" width="250px" height="250px"/>
+            <h3>Heat Pump</h3>
+            <p>Count on us for reliable heat pump and<br>
+                furnace services specializing in installations,<br>
+                repairs, and proactive maintenance.</p>
+
+                <div class="ahref 2">
+                    <a href="shop.html" target="_blank" style="color: white;">Learn More</a>
+                   </div>
+           
+                
+        </div>
+        <div class="grid off3">
+            <img src="mini split.png" width="250px" height="250px"/>
+            <h3>Mini-Split</h3>
+            <p>Experience personalized comfort with<br>
+             ductless mini-split services, providing<br>
+             expert installation.</p>
+
+             <div class="ahref 3">
+                <a href="shop.html" target="_blank" style="color: white;">Learn More</a>
+               </div>
+        </div>
+        <div class="grid off4">
+            <img src="maintenance.jpg" width="250px" height="250px"/>
+            <h3>Maintenance</h3>
+            <p>Ensure HVAC longevity with  maintenance<br>               
+                 agreements, prioritizing regular <br>             
+                 guaranteeing  peak efficiency.</p>
+                  
+                 <div class="ahref 4">
+                 <a href="shop.html" target="_blank" style="color: white;">Learn More</a>
+                </div>
+               
+        </div>
+        </section>
+
+        <h1 class="hi1">Meet Our Team</h1>        
+        <div class="about-us">
+         <div class="atillo">
+            <img src ="CEO.png" width="670px" height="370px"/>            
+         </div>
+         <div class="barba">
+            <img src ="CTO.png" width="670px" height="370px"/>
+         </div>
+        </div>
+
+
+
+        <footer>
+            <section class="nav-footer">
+            <div>
+
+
+            </div>
+            <div>
+
+            </div>
+            </section>
+        </footer>
+
+    <script>
+ document.getElementById('vid').play();
+    </script>
+    <script>
+  function myFunction() {
+  var x = document.forms["booking"]["name"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false; 
+   }
+  alert("You're Reserve! thanks");
+          window.location.href = "service.html";
+}  
+    </script>
+   
+</body>
+</html>
